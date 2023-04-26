@@ -1,12 +1,22 @@
+import About from "./components/About"
+import Navbar from "./components/Navbar"
 import ParticlesBackground from "./components/ParticlesBackground"
-
 
 function App() {
 
   return (
-    <div id="App">
+    <>
       <ParticlesBackground />
-    </div>
+      
+      <div id="App">
+        <Navbar />
+
+        <main>
+          <About />
+
+        </main>
+      </div>
+    </>
   )
 }
 
