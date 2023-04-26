@@ -8,6 +8,9 @@ export default {
     extend: {
       colors: {
         'primary-color': '#0DFC4B'
+      },
+      fontFamily: {
+        signature: ['Great Vibes'],
       }
     },
   },

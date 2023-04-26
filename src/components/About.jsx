@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-      <section className='flex justify-center items-center gap-8'>
+      <section className='relative flex justify-center items-center gap-8'>
         <div>
           <img className='w-[20rem] relative rounded-3xl' src="/images/profile.jpg" alt="" />
         </div>
