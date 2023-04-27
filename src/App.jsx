@@ -1,4 +1,4 @@
-import About from "./components/About"
+import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import ParticlesBackground from "./components/ParticlesBackground"
 
@@ -12,7 +12,7 @@ function App() {
         <Navbar />
 
         <main>
-          <About />
+          <Home />
 
         </main>
       </div>
