@@ -4,7 +4,7 @@ import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 
 const Home = () => {
     return (
-      <section name="Home" className='relative h-screen w-full'>
+      <section name="Home" className='relative w-full mb-28 mt-[7rem] md:mt-[10rem]'>
 
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
 
