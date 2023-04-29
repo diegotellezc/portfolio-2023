@@ -29,7 +29,7 @@ const Navbar = () => {
 
 
     return (
-        <header className='fixed top-0 flex justify-between h-20 items-center py-4 px-2 text-2xl text-white mx-auto md:px-24 md:py-0 w-full z-30'>
+        <header className='fixed top-0 flex bg-neutral-900/90 justify-between h-20 items-center py-4 px-2 text-2xl text-white mx-auto md:px-24 md:py-0 w-full z-30'>
             <div className='flex flex-row gap-4 items-center'>
                 <h1 className='text-4xl font-signature hover:text-primary-color hover:scale-125 hover:animate-pulse duration-500'>
                     Diego T

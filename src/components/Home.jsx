@@ -11,7 +11,7 @@ const Home = () => {
           <div className='flex flex-col justify-center h-full'>
             
             <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Frontend Developer</h2>
-            <p className='text-gray-300 py-4 max-x-md'>certified by Platzi, one of the largest online professional education platforms in Latin America, and by Academlo, where I am taking a Full Stack Developer and Computer Science night bootcamp.</p>
+            <p className='text-gray-300 py-4 max-x-md '>certified by Platzi, one of the largest online professional education platforms in Latin America, and by Academlo, where I am taking a Full Stack Developer and Computer Science night bootcamp.</p>
 
             <div>
               <button className='group text-black font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer'>

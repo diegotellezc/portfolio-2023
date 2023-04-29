@@ -11,10 +11,10 @@ const About = () => {
                 <div className='lex flex-col justify-center text-white text-lg text-justify'>
                     <h2 className='text-4xl sm:text-7xl font-bold mb-4'>About me</h2>
 
-                    <p className="mb-4 ">¡Hola! Vivo en Bogotá y soy Profesional en Medios Audiovisuales con más de 7 años de experiencia como editor de video. Sin embargo, sentia que tenía potencial para más, por lo que mi curiosidad intelectual me llevó a adentrarme en el mundo de la programación.
+                    <p className="mb-4 ">Hey! I live in Bogotá and I'm Professional in Audiovisual Media with more than 7 years of experience as a video editor. However, I felt that I had the potential for more, so my intellectual curiosity led me to enter into the world of programming.
                     </p>
 
-                    <p >Gracias a mi creatividad, mi atención al detalle y mi determinación, me dí cuenta de que tengo un gran talento para desarrollar aplicaciones web. Me fascina este gran mundo de tecnologías y posibilidades, y estoy seguro de que voy a poder crear proyectos increíbles tanto a nivel profesional como personal.</p>
+                    <p>Thanks to my creativity, my attention to detail and my determination, I realized that I have a great talent for developing web applications. I am fascinated by this great world of technologies and possibilities, and I am sure that I will be able to create incredible projects both professionally and personally.</p>
                 </div>
             </div>
 
