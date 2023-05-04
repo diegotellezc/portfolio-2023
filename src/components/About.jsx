@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section name="about" className='w-full max-w-[1200px] mx-auto p-6 flex flex-col gap-4 mb-32 lg:px-24'>
+        <section name="about" className='w-full  max-w-[1200px] mx-auto p-6 flex flex-col gap-4 my-36 lg:px-24'>
             <div className='flex flex-row gap-10'>
                 <div className='hidden max-w-[300px] md:flex'>
                     <img className='w-full h-full object-cover rounded-2xl shadow-2xl shadow-primary-color/20' style={{ filter: 'drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))' }} src="https://imgur.com/N6owgza.png" alt="" />
