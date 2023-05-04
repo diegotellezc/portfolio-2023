@@ -1,49 +1,50 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import pokedex from '/images/pokedex.png'
+import acciovocabulary from '/images/acciovocabulary.png'
+import rickandmorty from '/images/rickandmorty.png'
+import academloshop from '/images/academloshop.png'
+import weatherapp from '/images/weatherapp.png'
+import dogsblog from '/images/dogsblog.png'
 
 const MyProjects = () => {
 
     const projects = [
         {
             id: 1,
-            src: arrayDestruct,
-            demo: 'https://rickandmorty-bydt.netlify.app',
-            code: 'https://github.com/diegotellezc/RickAndMortyApp'
+            src: pokedex,
+            demo: 'https://pokedex-bydt.netlify.app/',
+            code: 'https://github.com/diegotellezc/pokedex'
         },
         {
+            
             id: 2,
-            src: reactParallax,
-            demo: 'https://www.instagram.com/?hl=es-la',
+            src: rickandmorty,
+            demo: 'https://rickandmorty-bydt.netlify.app/',
             code: 'https://github.com/diegotellezc/RickAndMortyApp'
         },
         {
             id: 3,
-            src: navbar,
-            demo: 'https://rickandmorty-bydt.netlify.app',
-            code: 'https://github.com/diegotellezc/RickAndMortyApp'
+            src: acciovocabulary,
+            demo: 'https://diegotellezc.github.io/landing-accio-vocabulary/',
+            code: 'https://github.com/diegotellezc/landing-accio-vocabulary'
         },
         {
             id: 4,
-            src: reactSmooth,
-            demo: 'https://rickandmorty-bydt.netlify.app',
-            code: 'https://github.com/diegotellezc/RickAndMortyApp'
+            src: academloshop,
+            demo: 'https://academlostoregen24.netlify.app/',
+            code: 'https://github.com/diegotellezc/academloShop'
         },
         {
             id: 5,
-            src: installNode,
-            demo: 'https://rickandmorty-bydt.netlify.app',
-            code: 'https://github.com/diegotellezc/RickAndMortyApp'
+            src: weatherapp,
+            demo: 'https://weatherappbydt.netlify.app/',
+            code: 'https://github.com/diegotellezc/weather-app'
         },
         {
             id: 6,
-            src: reactWeather,
-            demo: 'https://rickandmorty-bydt.netlify.app',
-            code: 'https://github.com/diegotellezc/RickAndMortyApp'
+            src: dogsblog,
+            demo: 'https://dogs-blog-diegotellezdev.netlify.app/',
+            code: 'https://github.com/diegotellezc/dogsBlog'
         }
     ]
 
@@ -57,7 +58,7 @@ const MyProjects = () => {
         
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
+                    <h2 className='text-6xl font-bold inline border-b-4 border-gray-500'>Projects</h2>
                     <p className='py-6'>Check out some of my work here</p>
                 </div>
 
