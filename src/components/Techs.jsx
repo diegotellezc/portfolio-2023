@@ -49,7 +49,7 @@ const Techs = () => {
     ]
 
     return (
-        <div name='techs' className='w-full h-screen'>
+        <div name='Technologies' className='w-full h-screen'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
                 <div>

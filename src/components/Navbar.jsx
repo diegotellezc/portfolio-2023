@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
-import { useMediaQuery } from '@react-hook/media-query'
+import { Link } from "react-scroll"
 
 const Navbar = () => {
-    const isMobile = useMediaQuery('(max-width: 985px)')
-
+    
     const links = [
         {
             id: 1,
@@ -20,7 +19,7 @@ const Navbar = () => {
         },
         {
             id: 4,
-            link: isMobile ? 'Techs' : 'Technologies'
+            link: 'Technologies'
         },
         {
             id: 5,
@@ -30,20 +29,19 @@ const Navbar = () => {
 
     const [isShowNav, setIsShowNav] = useState(false)
 
-    
-
-
     return (
-        <header className='fixed top-0 flex bg-neutral-900/90 justify-between h-20 items-center py-4 px-2 text-2xl text-white mx-auto md:px-24 md:py-0 w-full z-30'>
-            <div className='flex flex-row gap-4 items-center'>
+        <header className={`fixed top-0 flex bg-neutral-900/90 ${isShowNav ?"justify-center" : "justify-end"}  h-20 items-center py-4 px-2 text-2xl text-white mx-auto md:px-24 md:py-0 w-full z-30`}>
+            {/* <div className='flex flex-row gap-4 items-center'>
                 <h1 className='text-3xl mt-2 lg:text-4xl font-signature hover:text-primary-color hover:scale-125 hover:animate-pulse duration-500'>
                     Diego T
                 </h1>
-            </div>
+            </div> */}
 
             <ul className='hidden md:flex'>
                 {links.map(({ id, link }) => (
-                    <li key={id} className='cursor-pointer hover:scale-105 rounded-lg hover:bg-primary-color p-4 duration-200 hover:text-black text-[1.2rem] lg:text-[1.5rem]'>{link}</li>
+                    <li key={id} className='cursor-pointer hover:scale-105 rounded-lg hover:bg-primary-color p-4 duration-200 hover:text-black text-[1.2rem] lg:text-[1.5rem]'>
+                        <Link to={link} smooth duration={500}>{link}</Link>
+                    </li>
                 ))}
             </ul>
 
@@ -55,7 +53,15 @@ const Navbar = () => {
             <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black via-black to-green-950 opacity-90'>
 
                 {links.map(({ id, link }) => (
-                        <li key={id} className='px-4 cursor-pointer py-6 text-4xl opacity-100'>{link}</li>
+                        <li  
+                        key={id} 
+                        className='px-4 cursor-pointer py-6 text-4xl opacity-100'>
+                            <Link 
+                            onClick={() => setIsShowNav(!isShowNav)}
+                            to={link} 
+                            smooth 
+                            duration={500}>{link}</Link>
+                        </li>
                 ))}
             </ul> )}
 
