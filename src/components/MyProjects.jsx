@@ -70,10 +70,10 @@ const MyProjects = () => {
                     <p className='py-6'>Check out some of my work here</p>
                 </div>
 
-                <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+                <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
                     {
                         projects.map(({ id, src, demo, code }) => (
-                                <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+                                <div key={id} className='shadow-md shadow-gray-600 rounded-lg max-w-md mx-auto'>
                                     <img src={src} alt="project card" className='rounded-md duration-200 hover:scale-105' />
                                     <div className='flex items-center justify-center'>
                                         <button onClick={() => handleClickDemo(demo)} className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>Demo</button>
