@@ -4,6 +4,7 @@ import Home from "./components/Home"
 import MyProjects from "./components/MyProjects"
 import Navbar from "./components/Navbar"
 import ParticlesBackground from "./components/ParticlesBackground"
+import Videos from "./components/Videos"
 import SocialLinks from "./components/SocialLinks"
 import Techs from "./components/Techs"
 
@@ -21,6 +22,7 @@ function App() {
           <About />
           <MyProjects />
           <Techs />
+          {/* <Videos /> */}
           <Contact />
 
           <SocialLinks />
