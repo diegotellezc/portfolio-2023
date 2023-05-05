@@ -4,6 +4,7 @@ import MyProjects from "./components/MyProjects"
 import Navbar from "./components/Navbar"
 import ParticlesBackground from "./components/ParticlesBackground"
 import SocialLinks from "./components/SocialLinks"
+import Techs from "./components/Techs"
 
 function App() {
 
@@ -16,9 +17,11 @@ function App() {
 
         <main>
           <Home />
-          <SocialLinks />
           <About />
           <MyProjects />
+          <Techs />
+
+          <SocialLinks />
         </main>
       </div>
     </>

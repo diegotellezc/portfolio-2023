@@ -49,7 +49,15 @@ const MyProjects = () => {
     ]
 
     const handleClickDemo = (demoUrl) => {
-        window.open(demoUrl, '_blank')
+        const newWindow = window.open(demoUrl, '_blank');
+        newWindow.opener = null;
+        newWindow.rel = 'noopener noreferrer';
+    }
+
+    const handleClickCode = (codeUrl) => {
+        const newWindow = window.open(codeUrl, '_blank');
+        newWindow.opener = null;
+        newWindow.rel = 'noopener noreferrer';
     }
     
 
@@ -58,7 +66,7 @@ const MyProjects = () => {
         
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <h2 className='text-6xl font-bold inline border-b-4 border-gray-500'>Projects</h2>
+                    <h2 className='text-4xl font-bold inline border-b-4 border-gray-500 sm:text-7xl'>Projects</h2>
                     <p className='py-6'>Check out some of my work here</p>
                 </div>
 
@@ -69,7 +77,7 @@ const MyProjects = () => {
                                     <img src={src} alt="project card" className='rounded-md duration-200 hover:scale-105' />
                                     <div className='flex items-center justify-center'>
                                         <button onClick={() => handleClickDemo(demo)} className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>Demo</button>
-                                        <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>Code</button>
+                                        <button onClick={() => handleClickCode(code)} className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>Code</button>
                                     </div>
                                 </div>
                         ))

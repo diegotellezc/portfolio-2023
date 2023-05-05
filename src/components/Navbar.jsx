@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
+import { useMediaQuery } from '@react-hook/media-query'
 
 const Navbar = () => {
+    const isMobile = useMediaQuery('(max-width: 985px)')
+
     const links = [
         {
             id: 1,
@@ -17,7 +20,7 @@ const Navbar = () => {
         },
         {
             id: 4,
-            link: "Techs"
+            link: isMobile ? 'Techs' : 'Technologies'
         },
         {
             id: 5,
@@ -27,18 +30,20 @@ const Navbar = () => {
 
     const [isShowNav, setIsShowNav] = useState(false)
 
+    
+
 
     return (
         <header className='fixed top-0 flex bg-neutral-900/90 justify-between h-20 items-center py-4 px-2 text-2xl text-white mx-auto md:px-24 md:py-0 w-full z-30'>
             <div className='flex flex-row gap-4 items-center'>
-                <h1 className='text-4xl font-signature hover:text-primary-color hover:scale-125 hover:animate-pulse duration-500'>
+                <h1 className='text-3xl mt-2 lg:text-4xl font-signature hover:text-primary-color hover:scale-125 hover:animate-pulse duration-500'>
                     Diego T
                 </h1>
             </div>
 
             <ul className='hidden md:flex'>
                 {links.map(({ id, link }) => (
-                    <li key={id} className='cursor-pointer hover:scale-105 rounded-lg hover:bg-primary-color p-4 duration-200 hover:text-black'>{link}</li>
+                    <li key={id} className='cursor-pointer hover:scale-105 rounded-lg hover:bg-primary-color p-4 duration-200 hover:text-black text-[1.2rem] lg:text-[1.5rem]'>{link}</li>
                 ))}
             </ul>
 
