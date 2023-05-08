@@ -53,7 +53,7 @@ const Techs = () => {
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
                 <div>
-                    <h2 className='text-4xl font-bold inline border-b-4 border-gray-500 sm:text-7xl' >Technologies</h2>
+                    <h2 className='text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-7xl' >Technologies</h2>
                     <p className='py-6'>These are the technologies I've worked with</p>
                 </div>
 

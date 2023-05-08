@@ -11,7 +11,8 @@ const Home = () => {
 
           <div className='flex flex-col justify-center h-[85%] md:h-full order-2 md:order-1'>
             
-            <h2 className='text-4xl md:text-7xl font-bold text-white'>I'm a Frontend Developer</h2>
+            <h1 className='text-4xl md:text-6xl font-bold text-white mb-2 md:mb-4'>I'm Diego Téllez</h1>
+            <h2 className='bg-primary-color/20 max-w-max px-6 inline text-2xl sm:text-2xl md:text-4xl font-semibold text-white'>Frontend Developer</h2>
             <p className='text-gray-300 py-4 max-x-md'>certified by Platzi, one of the largest online professional education platforms in Latin America, and by Academlo, where I am taking a Full Stack Developer and Computer Science night bootcamp.</p>
 
             <div className=''>

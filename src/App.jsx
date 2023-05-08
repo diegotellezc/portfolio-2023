@@ -1,12 +1,7 @@
-import About from "./components/About"
-import Contact from "./components/Contact"
-import Home from "./components/Home"
-import MyProjects from "./components/MyProjects"
-import Navbar from "./components/Navbar"
 import ParticlesBackground from "./components/ParticlesBackground"
-import Videos from "./components/Videos"
-import SocialLinks from "./components/SocialLinks"
-import Techs from "./components/Techs"
+import { Route, Routes } from "react-router-dom"
+import VideosPage from "./components/pages/VideosPage"
+import HomePage from "./components/pages/HomePage"
 
 function App() {
 
@@ -14,20 +9,16 @@ function App() {
     <>
       <ParticlesBackground />
       
-      <div id="App">
-        <Navbar />
+      <Routes>
 
-        <main>
-          <Home />
-          <About />
-          <MyProjects />
-          <Techs />
-          {/* <Videos /> */}
-          <Contact />
+        <Route path="/" element={<HomePage />} />
+        
+        <Route path="/videos" element={<VideosPage />}/>
 
-          <SocialLinks />
-        </main>
-      </div>
+
+      </Routes>
+        
+      
     </>
   )
 }
