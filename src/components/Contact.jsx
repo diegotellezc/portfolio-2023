@@ -14,14 +14,14 @@ const Contact = () => {
                         <input 
                         type="text" 
                         name='name' placeholder='Enter your name' 
-                        className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' required/>
+                        className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none focus:border-primary-color' required/>
 
                         <input 
                         type="email" 
                         name='email' placeholder='Enter your email' 
-                        className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' required />
+                        className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none focus:border-primary-color' required />
 
-                        <textarea name="message" rows="10" placeholder='Enter your message' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' required></textarea>
+                        <textarea name="message" rows="10" placeholder='Enter your message' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none focus:border-primary-color' required></textarea>
 
                         <button className='text-black font-semibold bg-gradient-to-t from-green-400 to-primary-color px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>Let's talk</button>
                     </form>
