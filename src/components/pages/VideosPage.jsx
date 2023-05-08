@@ -1,9 +1,16 @@
 import React from 'react'
-import Videos from '../Videos'
+import NavbarVideos from '../videospage-comps/NavBarVideos'
+import AboutVideos from '../videospage-comps/AboutVideos'
+import Edition from '../videospage-comps/Edition'
 
 const VideosPage = () => {
     return (
-        <Videos />
+        <>
+            <NavbarVideos />
+            <AboutVideos />
+            <Edition />
+
+        </>
     )
 }
 

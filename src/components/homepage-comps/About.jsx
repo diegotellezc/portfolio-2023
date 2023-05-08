@@ -8,9 +8,6 @@ const About = () => {
         className='relative w-full h-screen text-white'>
 
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-lg'>
-                {/* <div className='hidden max-w-[300px] md:flex'>
-                    <img className='w-full h-full object-cover rounded-2xl shadow-2xl shadow-primary-color/20' style={{ filter: 'drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))' }} src="https://imgur.com/N6owgza.png" alt="" />
-                </div> */}
 
                     <div className='pb-8'>
                         <h2 className='text-4xl sm:text-7xl font-bold inline border-b-4 border-primary-color/40'>About me</h2>

@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from "../Navbar"
-import Home from "../Home"
-import About from "../About"
-import MyProjects from "../MyProjects"
-import Techs from "../Techs"
-import Contact from "../Contact"
-import SocialLinks from "../SocialLinks"
+import Navbar from "../homepage-comps/Navbar"
+import Home from "../homepage-comps/Home"
+import About from "../homepage-comps/About"
+import MyProjects from "../homepage-comps/MyProjects"
+import Techs from "../homepage-comps/Techs"
+import Contact from "../homepage-comps/Contact"
 
 const HomePage = () => {
     return (
@@ -18,7 +17,7 @@ const HomePage = () => {
 
                 <Contact />
 
-                <SocialLinks />
+                
         </>
     )
 }

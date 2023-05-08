@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from "../assets/heroImage.png"
+import HeroImage from "../../assets/HeroImage.png"
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import { Link } from "react-scroll"
 
@@ -7,13 +7,13 @@ const Home = () => {
     return (
       <section name="Home" className='relative w-full h-screen'>
 
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-16 md:py-0 md:flex-row'>
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-16 md:py-0 md:flex-row md:gap-8'>
 
-          <div className='flex flex-col justify-center h-[85%] md:h-full order-2 md:order-1'>
+          <div className='flex flex-col justify-center items-center h-[85%] md:h-full order-2 md:order-1 md:items-start'>
             
             <h1 className='text-4xl md:text-6xl font-bold text-white mb-2 md:mb-4'>I'm Diego Téllez</h1>
-            <h2 className='bg-primary-color/20 max-w-max px-6 inline text-2xl sm:text-2xl md:text-4xl font-semibold text-white'>Frontend Developer</h2>
-            <p className='text-gray-300 py-4 max-x-md'>certified by Platzi, one of the largest online professional education platforms in Latin America, and by Academlo, where I am taking a Full Stack Developer and Computer Science night bootcamp.</p>
+            <h2 className='rounded-md bg-primary-color/20 max-w-max px-6 inline text-xl md:text-3xl lg:text-4xl font-semibold text-white'>Frontend Developer</h2>
+            <p className='text-gray-300 py-4 max-x-md text-justify'>certified by Platzi, one of the largest online professional education platforms in Latin America, and by Academlo, where I am taking a Full Stack Developer and Computer Science night bootcamp.</p>
 
             <div className=''>
               <Link to='About' smooth duration={500} className='group text-black font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0'>
