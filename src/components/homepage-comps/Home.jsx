@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroImage from "../../assets/HeroImage.png"
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import { Link } from "react-scroll"
 
@@ -24,7 +23,7 @@ const Home = () => {
           </div>
 
           <div className='flex order-1 md:order-2 mt-8 md:mt-0'>
-              <img src={HeroImage} alt="My profile" className='rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20' style={{ filter: 'drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))' }} />
+              <img src="https://imgur.com/mebuqDk.png" alt="My profile" className='rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20' style={{ filter: 'drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))' }} />
             </div>
         </div>
       </section>
