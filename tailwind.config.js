@@ -7,13 +7,10 @@ export default {
   theme: {
     extend: {
       screens: {
-        'desktop': '1130px'
+        "desktop": "1130px"
       },
       colors: {
-        'primary-color': '#0DFC4B'
-      },
-      fontFamily: {
-        signature: ['Great Vibes'],
+        "primary-color": "#0DFC4B"
       }
     },
   },
