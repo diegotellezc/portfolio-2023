@@ -11,12 +11,15 @@
   },
   "dependencies": {
     "@react-hook/media-query": "^1.1.1",
+    "@sweetalert2/theme-dark": "^5.0.15",
+    "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.11.1",
     "react-scroll": "^1.8.9",
     "react-tsparticles": "^2.9.3",
+    "sweetalert2": "^11.7.5",
     "tsparticles": "^2.9.3"
   },
   "devDependencies": {

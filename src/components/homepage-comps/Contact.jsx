@@ -1,6 +1,37 @@
 import React from 'react'
+import axios from 'axios';
+import Swal from 'sweetalert2'
 
 const Contact = () => {
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(event.target);
+
+        axios.post('https://getform.io/f/feff19e5-27a9-4f74-be5d-9699c4b245ed', formData)
+            .then(response => {
+                Swal.fire({
+                    icon: 'success',
+                    iconColor: '#0DFC4B',
+                    title: 'Thank you for contacting me. It will be a pleasure to work with you!',
+                    showConfirmButton: true,
+                    background: '#191a19',
+                    color: '#fff',
+                    confirmButtonColor: '#117911',
+                    backdrop: `
+                        rgba(54, 55, 54,0.4)
+                    `
+                })
+            })
+            .catch(error => {
+            console.log(error);
+            });
+        
+        event.target.reset();
+    }
+    
+
     return (
         <div name='Contact' className='relative w-full h-screen p-4 text-white'>
             <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
@@ -10,7 +41,7 @@ const Contact = () => {
                 </div>
 
                 <div className='flex justify-center items-center'>
-                    <form action="https://getform.io/f/feff19e5-27a9-4f74-be5d-9699c4b245ed" method='POST' className='flex flex-col w-full md:w-1/2'>
+                    <form onSubmit={handleSubmit} className='flex flex-col w-full md:w-1/2'>
                         <input 
                         type="text" 
                         name='name' placeholder='Enter your name' 
