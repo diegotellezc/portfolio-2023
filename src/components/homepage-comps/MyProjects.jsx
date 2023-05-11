@@ -1,38 +1,37 @@
 import React from 'react'
-import pokedex from '/images/pokedex.png'
-import acciovocabulary from '/images/acciovocabulary.png'
-import rickandmorty from '/images/rickandmorty.png'
-import academloshop from '/images/academloshop.png'
-import weatherapp from '/images/weatherapp.png'
-import dogsblog from '/images/dogsblog.png'
+import pokedex from '/images/projectsImages/pokedex.webp'
+import acciovocabulary from '/images/projectsImages/acciovocabulary.webp'
+import rickandmorty from '/images/projectsImages/rickandmorty.webp'
+import academloshop from '/images/projectsImages/academloshop.webp'
+import weatherapp from '/images/projectsImages/weatherapp.webp'
+import dogsblog from '/images/projectsImages/dogsblog.webp'
 
 const MyProjects = () => {
 
     const projects = [
         {
             id: 1,
-            src: pokedex,
-            demo: 'https://pokedex-bydt.netlify.app/',
-            code: 'https://github.com/diegotellezc/pokedex'
+            src: academloshop,
+            demo: 'https://academlostoregen24.netlify.app/',
+            code: 'https://github.com/diegotellezc/academloShop'
         },
         {
-            
             id: 2,
-            src: rickandmorty,
-            demo: 'https://rickandmorty-bydt.netlify.app/',
-            code: 'https://github.com/diegotellezc/RickAndMortyApp'
-        },
-        {
-            id: 3,
             src: acciovocabulary,
             demo: 'https://diegotellezc.github.io/landing-accio-vocabulary/',
             code: 'https://github.com/diegotellezc/landing-accio-vocabulary'
         },
         {
+            id: 3,
+            src: dogsblog,
+            demo: 'https://dogs-blog-diegotellezdev.netlify.app/',
+            code: 'https://github.com/diegotellezc/dogsBlog'
+        },
+        {
             id: 4,
-            src: academloshop,
-            demo: 'https://academlostoregen24.netlify.app/',
-            code: 'https://github.com/diegotellezc/academloShop'
+            src: pokedex,
+            demo: 'https://pokedex-bydt.netlify.app/',
+            code: 'https://github.com/diegotellezc/pokedex'
         },
         {
             id: 5,
@@ -41,10 +40,11 @@ const MyProjects = () => {
             code: 'https://github.com/diegotellezc/weather-app'
         },
         {
+            
             id: 6,
-            src: dogsblog,
-            demo: 'https://dogs-blog-diegotellezdev.netlify.app/',
-            code: 'https://github.com/diegotellezc/dogsBlog'
+            src: rickandmorty,
+            demo: 'https://rickandmorty-bydt.netlify.app/',
+            code: 'https://github.com/diegotellezc/RickAndMortyApp'
         }
     ]
 

@@ -12,7 +12,7 @@ const Edition = () => {
 
                 <article className='bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden'>
                     <div>
-                        <img src="https://imgur.com/k1AoPBu.png" alt="" />
+                        <img src="/images/videosImages/reel-diego.webp" alt="reel-diego" loading='lazy' />
                     </div>
                     <section className='p-6'>
                         <h4>Demo reel - Diego Téllez</h4>
@@ -25,7 +25,7 @@ const Edition = () => {
 
                 <article className='bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden'>
                     <div>
-                        <img src="https://imgur.com/6ltk9tn.png" alt="" />
+                        <img src="/images/videosImages/informal.webp" alt="informal employment" loading='lazy' />
                     </div>
                     <section className='p-6'>
                         <h4>Informal Employment - The Project is Colombia</h4>
@@ -41,7 +41,7 @@ const Edition = () => {
             <section className='grid gap-10'>
             <article className='bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden'>
                     <div>
-                        <img src="https://imgur.com/bC2Zk1R.png" alt="" />
+                        <img src="/images/videosImages/macroeconomics.webp" alt="macroeconomics" loading='lazy' />
                     </div>
                     <section className='p-6'>
                         <h4>Macroeconomics - The Project is Colombia</h4>
@@ -54,7 +54,7 @@ const Edition = () => {
 
                 <article className='bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden'>
                     <div>
-                        <img src="https://imgur.com/Bk4u8HQ.png" alt="" />
+                        <img src="/images/videosImages/burger.webp" alt="burger day" loading='lazy' />
                     </div>
                     <section className='p-6'>
                         <h4>Burger Day - 2022</h4>

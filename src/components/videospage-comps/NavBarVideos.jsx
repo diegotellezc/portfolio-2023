@@ -47,7 +47,7 @@ const NavbarVideos = () => {
             <div className='flex flex-row gap-4 items-center'>
                 <NavLink to='/' className='text-[1.1rem] lg:text-[1.3rem] hover:text-primary-color hover:scale-125 duration-500'>
                     <i className='bx bx-home-heart mr-2'></i>
-                    Diego Téllez
+                    Home
                 </NavLink>
             </div>
 
