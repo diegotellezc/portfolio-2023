@@ -1,11 +1,11 @@
 import React from 'react'
-
 import html from "../../assets/html.png"
 import css from "../../assets/css.png"
 import javascript from "../../assets/javascript.png"
 import react from "../../assets/react.png"
 import nextjs from "../../assets/nextjs.png"
 import tailwind from "../../assets/tailwind.png"
+import { Link as ScrollLink } from 'react-scroll';
 
 const Techs = () => {
 
@@ -49,7 +49,7 @@ const Techs = () => {
     ]
 
     return (
-        <div name='Technologies' className='relative w-full h-screen'>
+        <section name='Technologies' className='relative w-full h-screen'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
                 <div>
@@ -70,7 +70,11 @@ const Techs = () => {
                     }
                 </div>
             </div>
-        </div>
+
+            <ScrollLink to="Contact" smooth duration={500} className='absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer hover:text-primary-color'>
+                <i className='bx bx-chevron-down text-7xl text-gray-400 animate-bounce font hover:text-primary-color'></i>
+            </ScrollLink>
+        </section>
     )
 }
 

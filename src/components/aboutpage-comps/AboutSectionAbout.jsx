@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link as ScrollLink } from 'react-scroll';
 
-const AboutVideos = () => {
+const AboutSectionAbout = () => {
     return (
         <section name="About" className='relative w-full h-screen'>
 
@@ -22,11 +23,13 @@ const AboutVideos = () => {
                     <p className='text-md md:text-lg text-gray-300 py-4 max-x-md text-justify'>I am a professional graduated from Politécnico Grancolombiano University and I worked as a video editor for 7 years in "Noticias Caracol", the most watched newscast in Colombia and with alliances in several countries around the world.</p>
                     <p className='text-md md:text-lg text-gray-300 max-x-md text-justify'>There I learned how to work in large teams and to assume responsibilities since I was the last filter before going on the air. Currently, I use those design and communication skills in the creation of web applications that can give the client comfort and effectiveness.</p>
                 </div>
-
-                
             </div>
+
+            <ScrollLink to="Edition" smooth duration={500} className='absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer hover:text-primary-color'>
+                <i className='bx bx-chevron-down text-7xl text-gray-400 animate-bounce font hover:text-primary-color'></i>
+            </ScrollLink>
         </section>
     );
 }
 
-export default AboutVideos
+export default AboutSectionAbout

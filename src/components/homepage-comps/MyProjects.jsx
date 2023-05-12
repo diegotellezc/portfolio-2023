@@ -5,6 +5,7 @@ import rickandmorty from '/images/projectsImages/rickandmorty.webp'
 import academloshop from '/images/projectsImages/academloshop.webp'
 import weatherapp from '/images/projectsImages/weatherapp.webp'
 import dogsblog from '/images/projectsImages/dogsblog.webp'
+import { Link as ScrollLink } from 'react-scroll';
 
 const MyProjects = () => {
 
@@ -83,8 +84,11 @@ const MyProjects = () => {
                         ))
                     }
                 </div>
-
             </div>
+
+            <ScrollLink to="Technologies" smooth duration={500} className='absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer hover:text-primary-color'>
+                <i className='bx bx-chevron-down text-7xl text-gray-400 animate-bounce font hover:text-primary-color'></i>
+            </ScrollLink>
         </section>
     )
 }
