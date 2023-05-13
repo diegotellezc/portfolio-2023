@@ -53,7 +53,7 @@ const Techs = () => {
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
                 <div>
-                    <h2 className='text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-7xl' >Technologies</h2>
+                    <h2 className='text-4xl font-bold inline pb-1 border-b-4 border-primary-color/40 sm:text-5xl' >Technologies</h2>
                     <p className='py-6'>These are the technologies I've worked with</p>
                 </div>
 
@@ -71,7 +71,7 @@ const Techs = () => {
                 </div>
             </div>
 
-            <ScrollLink to="Contact" smooth duration={500} className='absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer hover:text-primary-color'>
+            <ScrollLink to="Contact" smooth duration={500} className='absolute bottom-2 -left-full md:left-1/2 md:-translate-x-1/2 cursor-pointer hover:text-primary-color'>
                 <i className='bx bx-chevron-down text-7xl text-gray-400 animate-bounce font hover:text-primary-color'></i>
             </ScrollLink>
         </section>
