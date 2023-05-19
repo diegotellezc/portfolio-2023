@@ -23,6 +23,10 @@ const Navbar = () => {
         },
         {
             id: 5,
+            link: "Education"
+        },
+        {
+            id: 6,
             link: "Contact"
         }
     ]
@@ -54,7 +58,7 @@ const Navbar = () => {
                 </h1>
             </div>
 
-            <ul className='hidden md:flex'>
+            <ul className='hidden lg:flex'>
                 {links.map(({ id, link }) => (
                     <li key={id} className='cursor-pointer hover:scale-105 rounded-lg hover:bg-primary-color p-4 duration-200 hover:text-black text-[1.1rem] lg:text-[1.3rem]'>
                         <Link to={link} smooth duration={500}>{link}</Link>
@@ -62,7 +66,7 @@ const Navbar = () => {
                 ))}
             </ul>
 
-            <div onClick={() => setIsShowNav(!isShowNav)} className='cursor-pointer pr-4 z-10 text-gray-100 md:hidden'>
+            <div onClick={() => setIsShowNav(!isShowNav)} className='cursor-pointer pr-4 z-10 text-gray-100 lg:hidden'>
                 {isShowNav ? <FaTimes size={30} /> : <FaBars size={30} /> }
             </div>
 
