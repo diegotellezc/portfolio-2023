@@ -9,6 +9,8 @@ import dogsblog from '/images/projectsImages/dogsblog.webp'
 import crud from '/images/projectsImages/crud.webp'
 import moviepedia from '/images/projectsImages/moviepedia.webp'
 import tictactoe from '/images/projectsImages/tictactoe.webp'
+import soccerquotes from '/images/projectsImages/soccerquotes.webp'
+import fortunecookies from '/images/projectsImages/fortunecookies.webp'
 
 const AllProjects = () => {
 
@@ -63,18 +65,28 @@ const AllProjects = () => {
             code: 'https://github.com/diegotellezc/Users-CRUD'
         },
         {
-            
             id: 9,
+            src: moviepedia,
+            demo: 'https://diegotellezc.github.io/Moviepedia/',
+            code: 'https://github.com/diegotellezc/Moviepedia'
+        },
+        {
+            id: 10,
+            src: soccerquotes,
+            demo: 'https://soccerquotes.netlify.app/',
+            code: 'https://github.com/diegotellezc/soccerQuotes'
+        },
+        {
+            id: 11,
             src: tictactoe,
             demo: 'https://tictactoebydt.netlify.app/',
             code: 'https://github.com/diegotellezc/Tictactoebydt'
         },
         {
-            
-            id: 10,
-            src: moviepedia,
-            demo: 'https://diegotellezc.github.io/Moviepedia/',
-            code: 'https://github.com/diegotellezc/Moviepedia'
+            id: 12,
+            src: fortunecookies,
+            demo: 'https://fortunecookiesapp.netlify.app/',
+            code: 'https://github.com/diegotellezc/fortuneCookies'
         },
     ]
 
