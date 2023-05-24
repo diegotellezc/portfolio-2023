@@ -65,7 +65,7 @@ const MyProjects = () => {
     
 
     return (
-        <section name="Projects" className='relative w-full text-white md:h-screen'>
+        <section name="Projects" className='relative w-full text-white md:h-screen h-unset'>
         
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='mb-4'>

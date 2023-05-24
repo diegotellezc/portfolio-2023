@@ -49,7 +49,7 @@ const Techs = () => {
     ]
 
     return (
-        <section name='Technologies' className='relative w-full h-screen'>
+        <section name='Technologies' className='relative w-full md:h-screen h-unset'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
                 <div>

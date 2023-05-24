@@ -4,7 +4,7 @@ import { Link } from "react-scroll"
 
 const Home = () => {
     return (
-      <section name="Home" className='relative w-full h-screen'>
+      <section name="Home" className='relative w-full md:h-screen h-unset'>
 
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-16 md:py-0 md:flex-row md:gap-8'>
 

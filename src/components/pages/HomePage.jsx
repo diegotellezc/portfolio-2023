@@ -10,11 +10,12 @@ import CertificateSlider from '../homepage-comps/CertificateSlider'
 const HomePage = () => {
     const certificates = [
         {image: '/images/certificates/diploma-frontend-academlo.webp'},
-        {image: '/images/certificates/diploma-koe.webp'},
         {image: '/images/certificates/diploma-arrays.webp'},
+        {image: '/images/certificates/diploma-react.webp'},
         {image: '/images/certificates/diploma-api-profesional.webp'},
-        {image: '/images/certificates/diploma-frameworks-javascript.webp'},
+        {image: '/images/certificates/diploma-koe.webp'},
         {image: '/images/certificates/diploma-git-github.webp'},
+        {image: '/images/certificates/diploma-frameworks-javascript.webp'},
         {image: '/images/certificates/diploma-ingles-developers.webp'},
         {image: '/images/certificates/diploma-asincronismo-js.webp'},
         {image: '/images/certificates/diploma-habilidades-blandas.webp'},
