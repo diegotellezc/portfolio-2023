@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import NavbarVideos from '../aboutpage-comps/NavBarVideos'
-import AboutSectionAbout from '../aboutpage-comps/AboutSectionAbout'
-import Edition from '../aboutpage-comps/Edition'
+import NavbarVideos from '../pages/aboutpage-comps/NavBarVideos'
+import AboutSectionAbout from '../pages/aboutpage-comps/AboutSectionAbout'
+import Edition from '../pages/aboutpage-comps/Edition'
 
 const AboutPage = () => {
 

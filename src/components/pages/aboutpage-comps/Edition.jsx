@@ -16,7 +16,7 @@ const Edition = () => {
                     </div>
                     <section className='p-6'>
                         <h4>Demo reel - Diego Téllez</h4>
-                        <p className='text-gray-400 text-sm mt-2'>Demo reel by Diego Téllez Contreras, video editor located in the city of Bogotá with more than 7 years of experience in the post-production of all kinds of audiovisual products.</p>
+                        <p className='text-gray-400 text-md mt-2'>Demo reel by Diego Téllez Contreras, video editor located in the city of Bogotá with more than 7 years of experience in the post-production of all kinds of audiovisual products.</p>
                         <a href="https://youtu.be/ZaNV03Y6Yfo" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
                             <i className='bx bx-link text-black'></i>
                         </a>
@@ -29,7 +29,7 @@ const Edition = () => {
                     </div>
                     <section className='p-6'>
                         <h4>Informal Employment - The Project is Colombia</h4>
-                        <p className='text-gray-400 text-sm mt-2'>Chronicle edited for the Project is Colombia from Noticias Caracol. Journalist: Marcela Pulido. Editing and coloring: Diego Téllez. Language: spanish. December 2020.</p>
+                        <p className='text-gray-400 text-md mt-2'>Chronicle edited for the Project is Colombia from Noticias Caracol. Journalist: Marcela Pulido. Editing and coloring: Diego Téllez. Language: spanish. December 2020.</p>
                         <a href="https://youtu.be/T23Vnz8hcPc" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
                             <i className='bx bx-link text-black'></i>
                         </a>
@@ -45,7 +45,7 @@ const Edition = () => {
                     </div>
                     <section className='p-6'>
                         <h4>Macroeconomics - The Project is Colombia</h4>
-                        <p className='text-gray-400 text-sm mt-2'>Chronicle edited for the Project is Colombia from Noticias Caracol. Journalist: Victor Grosso. Editing and coloring: Diego Téllez. Language: spanish. December 2020.</p>
+                        <p className='text-gray-400 text-md mt-2'>Chronicle edited for the Project is Colombia from Noticias Caracol. Journalist: Victor Grosso. Editing and coloring: Diego Téllez. Language: spanish. December 2020.</p>
                         <a href="https://youtu.be/-MCSBxC_a6M" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
                             <i className='bx bx-link text-black'></i>
                         </a>
@@ -58,7 +58,7 @@ const Edition = () => {
                     </div>
                     <section className='p-6'>
                         <h4>Burger Day - 2022</h4>
-                        <p className='text-gray-400 text-sm mt-2'>Video edited for Fedegán on International Hamburger Day 2022 where Hector Horacio Hernandez, manager of Alimont Food Service Sas, is interviewed. Language: spanish. May 2022.</p>
+                        <p className='text-gray-400 text-md mt-2'>Video edited for Fedegán on International Hamburger Day 2022 where Hector Horacio Hernandez, manager of Alimont Food Service Sas, is interviewed. Language: spanish. May 2022.</p>
                         <a href="https://youtu.be/gAcZh8c1Pa4" target='_blank' className='bg-gradient-to-t from-green-400 to-primary-color p-1 absolute bottom-0 right-0 text-lg'>
                             <i className='bx bx-link text-black'></i>
                         </a>

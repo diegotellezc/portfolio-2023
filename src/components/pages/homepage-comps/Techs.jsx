@@ -1,10 +1,10 @@
 import React from 'react'
-import html from "../../assets/html.png"
-import css from "../../assets/css.png"
-import javascript from "../../assets/javascript.png"
-import react from "../../assets/react.png"
-import nextjs from "../../assets/nextjs.png"
-import tailwind from "../../assets/tailwind.png"
+import html from "../../../assets/html.png"
+import css from "../../../assets/css.png"
+import javascript from "../../../assets/javascript.png"
+import react from "../../../assets/react.png"
+import nextjs from "../../../assets/nextjs.png"
+import tailwind from "../../../assets/tailwind.png"
 import { Link as ScrollLink } from 'react-scroll';
 
 const Techs = () => {
