@@ -1,6 +1,7 @@
 import React from 'react'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import { Link } from "react-scroll"
+import MobileSocialLinks from './MobileSocialLinks';
 
 const Home = () => {
     return (
@@ -14,12 +15,14 @@ const Home = () => {
             <h2 className='rounded-md bg-primary-color/20 max-w-max px-6 inline text-xl md:text-3xl lg:text-4xl font-semibold text-white'>Frontend Developer</h2>
             <p className='text-gray-300 py-4 max-x-md text-justify'>certified by Platzi, one of the largest online professional education platforms in Latin America, and by Academlo, where I graduated as a Frontend developer with react. Welcome to my portfolio, I'm excited to share my journey with you!</p>
 
-            <div className=''>
+            <div className='hidden desktop:flex'>
               <Link to='About' smooth duration={500} className='group text-black font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0'>
                 About me
                 <span className='group-hover:rotate-90 duration-300'><MdOutlineKeyboardArrowRight size={25} className='ml-1' /></span>
               </Link>
             </div>
+
+            <MobileSocialLinks />
           </div>
 
           <div className='flex order-1 md:order-2 mt-8 md:mt-0'>
