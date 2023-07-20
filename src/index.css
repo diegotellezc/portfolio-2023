@@ -11,6 +11,10 @@
         font-family: 'Raleway', sans-serif;
     }
 
+    .modalCard {
+    box-shadow: 0 0 1rem 0 #86ff4b87;
+}
+
     @media (max-height: 620px) {
         .h-unset {
             height: unset !important; 
