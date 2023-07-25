@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/FrontendDeveloper-DiegoTellez.pdf',
+            href: '/FullStack_Developer_DiegoTellez.pdf',
             style: 'rounded-br-md',
             download: true
         }
